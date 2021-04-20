@@ -1,0 +1,30 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "My First NodeJS Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edinhassagic/nodeServer.git"
+  },
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "author": "Edin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edinhassagic/nodeServer/issues"
+  },
+  "homepage": "https://github.com/edinhassagic/nodeServer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
