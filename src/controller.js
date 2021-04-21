@@ -1,6 +1,6 @@
 const root = (req, res) => {
 
-  res.end("Hello Node Server!");
+  res.end("Hello Node Server, how are you!");
 };
 
 const text = (req, res) => {
@@ -14,4 +14,4 @@ const html = (req, res) => {
   const param = req.params.param || 'Html';
   res.end(`<h1>Hello ${param} Server!</h1>`);
 };
-module.exports = { root, text, html };
+export  { root, text, html }
